@@ -1,3 +1,7 @@
+##if created repo not cloned first, then add repo url at last , before git push##
+git add remote add <url>
+
+
 ###To change file name ###
 git rm oldfilename newfilname --> if already staged
 rm oldfilename newfilename --> in local not pushed yet

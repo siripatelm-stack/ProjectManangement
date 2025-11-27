@@ -4,12 +4,12 @@
 git config --global user.name "username"
 git config --global user.email "email"
 
+##basic commands##
 1.initialize a new git repo --> git init
 2.create a new file --> touch filename
 3.add it to the staging area --> git add filename Or 
 			     --> git add .
 4.commit changes --> git commit -m "message"
-
 
 #To Open File#
 
@@ -26,3 +26,10 @@ Or shift+ZZ
 nano filename
 ctrl+s --> to save
 ctrl+x --> to exit
+
+
+###Creating and Managing branches###
+git branch branchname --> creates branch
+git checkout branchname Or 
+git switch branchname --> switch btw branches
+git branch --> list all the branches
