@@ -1,0 +1,3 @@
+###To change file name ###
+git rm oldfilename newfilname --> if already staged
+rm oldfilename newfilename --> in local not pushed yet

@@ -1,0 +1,28 @@
+###Setting Up and Basic commands###
+
+##basic set-up before starting"
+git config --global user.name "username"
+git config --global user.email "email"
+
+1.initialize a new git repo --> git init
+2.create a new file --> touch filename
+3.add it to the staging area --> git add filename Or 
+			     --> git add .
+4.commit changes --> git commit -m "message"
+
+
+#To Open File#
+
+1.Using vim command
+vim filename
+i --> to insert line
+esc
+to save and exit                     to save without changes
+   type wq+enter                        q!+enter
+Or :x+enter                          Or shift+ZQ
+Or shift+ZZ
+
+2.Using nano command
+nano filename
+ctrl+s --> to save
+ctrl+x --> to exit
