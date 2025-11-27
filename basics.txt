@@ -36,4 +36,20 @@ git switch branchname --> switch btw branches
 git branch --> list all the branches
 ====
 duplicate file to merge from master to main in GitHub
-7cad4573a21b30af14040e491b5912caacf29b10
+7cad4573a21b30af14040e491b5912caacf29b
+
+##merging branches##                          ------------------------
+if created along                             | branch -> to be merged |
+git checkout sourcebranch                     ------------------------
+git merge branch
+if conflict --> open that file and resolve conflit 
+then merge again
+
+if seperately creted in same repo without knowing of bash
+check if branch is there
+try to merge , if not possible
+git pull origin branch --allow-unrelated-histories
+if conflict , resolve
+git add .
+git commit -m " " --> get message as "merged branch"
+git push origin sourcebranch
