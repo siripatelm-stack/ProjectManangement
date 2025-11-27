@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###Setting Up and Basic commands###
 
 ##basic set-up before starting"
@@ -33,3 +34,6 @@ git branch branchname --> creates branch
 git checkout branchname Or 
 git switch branchname --> switch btw branches
 git branch --> list all the branches
+====
+duplicate file to merge from master to main in GitHub
+7cad4573a21b30af14040e491b5912caacf29b10
