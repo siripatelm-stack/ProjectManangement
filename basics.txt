@@ -1,55 +1,54 @@
-<<<<<<< HEAD
-###Setting Up and Basic commands###
+1.Setting Up and Basic commands
 
-##basic set-up before starting"
+->configuration 
 git config --global user.name "username"
 git config --global user.email "email"
 
-##basic commands##
+->basic commands
 1.initialize a new git repo --> git init
 2.create a new file --> touch filename
-3.add it to the staging area --> git add filename Or 
-			     --> git add .
-4.commit changes --> git commit -m "message"
 
-#To Open File#
-
-1.Using vim command
+->To Open File
+i.Using vim command
 vim filename
-i --> to insert line
+i. --> to insert line
 esc
 to save and exit                     to save without changes
    type wq+enter                        q!+enter
 Or :x+enter                          Or shift+ZQ
 Or shift+ZZ
 
-2.Using nano command
+ii.Using nano command
 nano filename
 ctrl+s --> to save
 ctrl+x --> to exit
 
+3.add it to the staging area --> git add filename Or 
+			     --> git add.
+4.commit changes --> git commit -m "message"
 
-###Creating and Managing branches###
+
+2.Creating and Managing branches
 git branch branchname --> creates branch
 git checkout branchname Or 
 git switch branchname --> switch btw branches
 git branch --> list all the branches
-====
-duplicate file to merge from master to main in GitHub
-7cad4573a21b30af14040e491b5912caacf29b
 
-##merging branches##                          ------------------------
-if created along                             | branch -> to be merged |
-git checkout sourcebranch                     ------------------------
+->merging branches                            ----------------------
+if created along                             | branch -> new branch |
+git checkout sourcebranch                     ----------------------
 git merge branch
 if conflict --> open that file and resolve conflit 
 then merge again
 
-if seperately creted in same repo without knowing of bash
+if seperately created in same repo without knowing of bash
 check if branch is there
-try to merge , if not possible
+try to merge, if not possible
 git pull origin branch --allow-unrelated-histories
-if conflict , resolve
-git add .
+if conflict, resolve
+git add.
 git commit -m " " --> get message as "merged branch"
 git push origin sourcebranch
+
+3.stash changes
+
