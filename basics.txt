@@ -1,17 +1,18 @@
 1.Setting Up and Basic commands
 
-->configuration 
+-->First-Time Git Setup 
 git config --global user.name "username"
 git config --global user.email "email"
+git config --global init.defaultBranch main  ->to set main as default 									branch
 
-->basic commands
-1.initialize a new git repo --> git init
-2.create a new file --> touch filename
+-->basic commands
+1.initialize a new git repo -> git init
+2.create a new file -> touch filename
 
-->To Open File
+-->To Open File
 i.Using vim command
 vim filename
-i. --> to insert line
+i. -> to insert line
 esc
 to save and exit                     to save without changes
    type wq+enter                        q!+enter
@@ -20,25 +21,23 @@ Or shift+ZZ
 
 ii.Using nano command
 nano filename
-ctrl+s --> to save
-ctrl+x --> to exit
+ctrl+s -> to save
+ctrl+x -> to exit
 
-3.add it to the staging area --> git add filename Or 
-			     --> git add.
+3.add it to the staging area -> git add filename Or git add.
 4.commit changes --> git commit -m "message"
 
 
 2.Creating and Managing branches
-git branch branchname --> creates branch
-git checkout branchname Or 
-git switch branchname --> switch btw branches
-git branch --> list all the branches
+git branch branchname -> creates branch
+git checkout branchname Or git switch branchname -> switch btw branches
+git branch -> list all the branches
 
-->merging branches                            ----------------------
+-->merging branches                            ----------------------
 if created along                             | branch -> new branch |
 git checkout sourcebranch                     ----------------------
 git merge branch
-if conflict --> open that file and resolve conflit 
+if conflict -> open that file and resolve conflit 
 then merge again
 
 if seperately created in same repo without knowing of bash
@@ -47,7 +46,7 @@ try to merge, if not possible
 git pull origin branch --allow-unrelated-histories
 if conflict, resolve
 git add.
-git commit -m " " --> get message as "merged branch"
+git commit -m " " -> get message as "merged branch"
 git push origin sourcebranch
 
 3.stash changes
