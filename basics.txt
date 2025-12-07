@@ -7,11 +7,9 @@ git config --global user.email "email"
 basic commands
 1.initialize a new git repo --> git init
 2.create a new file --> touch filename
-3.add it to the staging area --> git add filename Or 
-			     --> git add .
-4.commit changes --> git commit -m "message"
 
-To Open File#
+
+To Open File
 
 1.Using vim command
 vim filename
